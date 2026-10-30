@@ -2,14 +2,29 @@
   "name": "Poseidiet",
   "short_name": "Poseidiet",
   "start_url": "/Posediet/",
+  "scope": "/Posediet/",
+  "id": "/Posediet/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#081A24",
   "theme_color": "#081A24",
   "icons": [
     {
       "src": "/Posediet/poseidiet.svg",
-      "sizes": "192x192",
+      "sizes": "any",
       "type": "image/svg+xml"
+    },
+    {
+      "src": "/Posediet/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/Posediet/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
